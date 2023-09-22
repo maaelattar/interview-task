@@ -1,3 +1,1 @@
-import MeetingInfo from './MeetingInfo'
-
-export MeetingInfo
+export { MeetingInfo } from "./MeetingInfo/MeetingInfo";
