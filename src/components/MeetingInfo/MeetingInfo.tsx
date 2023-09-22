@@ -7,7 +7,7 @@ type Props = {
 export const MeetingInfo = ({ icon, title }: Props) => {
   return (
     <div className={styles.infoWrapper}>
-      <img src={icon} />
+      <img src={icon} alt="icon" />
       <p>{title}</p>
     </div>
   );
